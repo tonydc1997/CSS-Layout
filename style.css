@@ -1,3 +1,10 @@
+.grid_container {
+  display: grid;
+  grid-gap: .5rem;
+  grid-template-rows: repeat(auto-fill, minmax(1fr, 1fr));
+
+}
+
 .zone {
     padding:30px 50px;
     margin:40px 60px;
