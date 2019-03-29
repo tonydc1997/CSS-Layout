@@ -34,10 +34,11 @@ body {
   font-size: .7em;
   list-style: none;
   margin: 0;
+  padding-left: 0px;
 }
 
 .main-nav li {
-  padding: 1.5em;
+  padding: 1em;
 }
 
 .main-nav li a {
@@ -51,7 +52,7 @@ body {
 
 @media only screen and (max-width: 600px) {
   .main-nav {
-    font-size: .5em;
+    font-size: .6em;
     padding: 0px;
   }
 }
