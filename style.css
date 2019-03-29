@@ -26,7 +26,19 @@
 
 /* NAV */
 .main-nav {
+  display: flex;
+  font-size: 1em;
+  list-style: none;
+  margin: 0;
+}
 
+.main-nav li {
+  padding: 1.5em;
+}
+
+.main-nav li a {
+  color: #f5f5f5;
+  text-decoration: none;
 }
 
 
