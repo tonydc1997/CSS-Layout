@@ -31,7 +31,7 @@ body {
 /* NAV */
 .main-nav {
   display: flex;
-  font-size: 1em;
+  font-size: .7em;
   list-style: none;
   margin: 0;
 }
@@ -47,6 +47,13 @@ body {
 
 .main-nav__child--right {
   margin-left: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .main-nav {
+    font-size: .5em;
+    padding: 0px;
+  }
 }
 
 
