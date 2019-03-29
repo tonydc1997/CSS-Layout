@@ -45,7 +45,9 @@ body {
   text-decoration: none;
 }
 
-.main-nav__child--right {}
+.main-nav__child--right {
+  margin-left: auto;
+}
 
 
 /*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
